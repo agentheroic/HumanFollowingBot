@@ -24,7 +24,6 @@ NewPing mySensor(ULTRASONIC_SENSOR_TRIG, ULTRASONIC_SENSOR_ECHO, 400);
 
 void setup()
 {
-  // put your setup code here, to run once:
   pinMode(enableRightMotor, OUTPUT);
   pinMode(rightMotorPin1, OUTPUT);
   pinMode(rightMotorPin2, OUTPUT);
